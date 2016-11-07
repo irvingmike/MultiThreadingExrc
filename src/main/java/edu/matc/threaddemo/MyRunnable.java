@@ -13,7 +13,7 @@ public class MyRunnable implements Runnable {
     public void run() {
         logger.info("In edu.matc.threaddemo.MyRunnable");
 
-        /*for (int i = 0; i < 100 ; i++) {
+        for (int i = 0; i < 100 ; i++) {
             try {
                 Thread.sleep(100);
                 logger.info("MyRunnable count: " + i);
@@ -22,6 +22,6 @@ public class MyRunnable implements Runnable {
                 return;
             }
 
-        }*/
+        }
     }
 }
